@@ -1,0 +1,21 @@
+- to see dotnet options
+> dotnet -h
+
+to see options for this tag
+> dotnet new -h
+
+Commands run to set up project:
+
+> dotnet new sln
+> dotnet new webapi -o API
+> dotnet sln add API/ // adds API directory to sln
+> dotnet sln list // shows projects inside
+
+update db migration
+> dotnet ef -h
+> dotnet ef migrations add InitialCreate -o Data/Migrations
+> dotnet ef database -h
+> dotnet ef database update
+
+> dotnet new classlib -o Core
+> dotnet new classlib -o Infrastructure
