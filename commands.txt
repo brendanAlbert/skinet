@@ -19,3 +19,12 @@ update db migration
 
 > dotnet new classlib -o Core
 > dotnet new classlib -o Infrastructure
+
+
+> redis-server
+> redis-cli KEYS '*'
+> redis-cli GET <keyvalue>
+
+> redis-cli
+> ping
+> shutdown
