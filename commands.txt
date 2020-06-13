@@ -28,3 +28,6 @@ update db migration
 > redis-cli
 > ping
 > shutdown
+
+dotnet ef migrations add IdentityInitial -p Infrastructure -s API -o Identity/Migrations -c AppIdentityDbContext
+dotnet ef migrations remove -p Infrastructure -s API -c AppIdentityDbContext
